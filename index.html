@@ -2940,6 +2940,17 @@
   .g2-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; margin-top: 22px; }
   .g3-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; margin-top: 22px; }
   .g4-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 18px; margin-top: 22px; }
+  .erasmus-beoordeling { display: grid; grid-template-columns: 150px 1fr; gap: 26px; align-items: center; margin-top: 24px; padding: 26px 28px; border: 2px solid #B9D8EC; border-left: 6px solid var(--merlet-blue); border-radius: 16px; background: linear-gradient(135deg, #F4FAFE 0%, #FFFFFF 100%); }
+  .erasmus-score { width: 126px; height: 126px; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 50%; color: white; background: var(--merlet-blue); box-shadow: 0 10px 24px rgba(0,112,184,0.2); }
+  .erasmus-score strong { font-family: 'Bricolage Grotesque', sans-serif; font-size: 2.75rem; line-height: 0.95; }
+  .erasmus-score span { margin-top: 7px; font-size: 12px; font-weight: 700; }
+  .erasmus-beoordeling-label { display: block; margin-bottom: 7px; color: var(--merlet-blue); font-size: 11px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+  .erasmus-beoordeling h4 { margin: 0 0 9px; font-family: 'Bricolage Grotesque', sans-serif; font-size: 1.3rem; color: var(--ink); }
+  .erasmus-beoordeling p { margin: 0; color: var(--ink-soft); font-size: 14px; line-height: 1.65; }
+  .erasmus-highlights { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 15px; }
+  .erasmus-highlights span { padding: 7px 11px; border-radius: 8px; background: #DCEFE0; color: #245D31; font-size: 12px; }
+  .erasmus-beoordeling small { display: block; margin-top: 13px; color: #66717A; font-size: 10.5px; line-height: 1.45; }
+  @media (max-width: 640px) { .erasmus-beoordeling { grid-template-columns: 1fr; } .erasmus-score { width: 104px; height: 104px; } }
   .pr-card {
     background: white; border: 2px solid var(--line); border-top: 6px solid var(--pc, var(--merlet-blue));
     border-radius: 14px; padding: 22px 24px;
@@ -4285,6 +4296,19 @@
     <span class="omo-eyebrow" style="background:#0070B8;">Erasmus+ · geaccrediteerde school (KA121)</span>
     <h3 class="visie-section-title">Erasmus+ op het Merletcollege</h3>
     <p class="visie-section-intro">Met een meerjarige Erasmus+-accreditatie (KA121) kunnen we internationalisering structureel organiseren in plaats van per project aan te vragen. Daarnaast lopen enkele kleinere KA2-samenwerkingsprojecten.</p>
+    <div class="erasmus-beoordeling">
+      <div class="erasmus-score"><strong>82</strong><span>/ 100 punten</span></div>
+      <div class="erasmus-beoordeling-tekst">
+        <span class="erasmus-beoordeling-label">Positieve beoordeling eerste vijf accreditatiejaren</span>
+        <h4>Steeds meer leerlingen en medewerkers doen mee</h4>
+        <p>De externe beoordelaars zien een duidelijke professionalisering en een stijgende lijn in deelname. Ze waarderen dat internationalisering structureel in de school is ingebed, dat de selectie transparant, eerlijk en inclusief verloopt en dat deelnemers die extra ondersteuning nodig hebben die ook krijgen.</p>
+        <div class="erasmus-highlights">
+          <span><strong>&gt;80%</strong> van de reizen duurzaam uitgevoerd</span>
+          <span><strong>9/10</strong> voor het delen van resultaten en kennis</span>
+        </div>
+        <small>Bron: inhoudelijke beoordeling Erasmus Plan Progress Report, project 2021-1-NL01-KA120-SCH-000045648</small>
+      </div>
+    </div>
     <div class="g4-cards"><div class="pr-card" style="--pc: #0070B8;"><div class="pr-ico">🔄</div><h4>Uitwisselingen</h4><p>Groepsmobiliteit naar partnerscholen in Europa — de grootste vorm, en toegankelijk voor alle niveaus.</p></div><div class="pr-card" style="--pc: #33AA49;"><div class="pr-ico">🎓</div><h4>Cursussen voor docenten</h4><p>Vakgerichte of thematische cursussen in het buitenland: CLIL en taalgerichte didactiek, wereldburgerschap, welzijn, leiderschap, outdoor learning.</p></div><div class="pr-card" style="--pc: #EE7161;"><div class="pr-ico">💼</div><h4>Internationale stages</h4><p>Voor leerlingen van h4 en v5 tto: stage lopen in het buitenland, gekoppeld aan de praktijk.</p></div><div class="pr-card" style="--pc: #5A2685;"><div class="pr-ico">👀</div><h4>Jobshadowing</h4><p>Collega&#x27;s lopen mee bij een Europese partnerschool en brengen nieuwe werkwijzen mee terug.</p></div></div>
   </section>
 
